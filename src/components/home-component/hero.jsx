@@ -7,6 +7,15 @@ import TextType from '../rebits/TextType.jsx';
 
 
 const hero = () => {
+    const description = `
+Company-IT is transforming the IT sector by solving the costly and
+ complex problem of AI using our proprietary Python. 
+ This unique solution has already generated 98%, demonstrating 
+ immense value and a clear path to dominating the $60 Billion global market opportunity. We offer 
+ foreign investors a strategic entry point into a high-growth, resilient tech venture with a projected 
+ Strategy. Join us in our Org
+to accelerate our international expansion and unlock significant mutual returns.`;
+
     const containerRef = useRef(null);
     return (
         <div >
@@ -43,8 +52,8 @@ const hero = () => {
                         >
 
                             <VariableProximity
-                                label={'Hover me! And then star React Bits on GitHub, or else...'}
-                                className={'variable-proximity-demo'}
+                                label={description}
+                                className={'variable-proximity-demo' + 'text-wrap break-all pt-4 pr-3 md:pl-20 md:pr-20 text-white'}
                                 fromFontVariationSettings="'wght' 400, 'opsz' 9"
                                 toFontVariationSettings="'wght' 1000, 'opsz' 40"
                                 containerRef={containerRef}
