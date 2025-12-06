@@ -11,7 +11,7 @@ const hero = () => {
     return (
         <div >
 
-            <div style={{ width: '100%', height: '600px', position: 'relative', overflow: 'hidden' }}>
+            <div style={{ width: '100%', height: '600px', position: 'relative', overflow: 'hidden', zIndex: -1 }}>
 
                 <LightRays
                     raysOrigin="top-left"
