@@ -26,7 +26,7 @@ const Navbar = () => {
             <ul
               className={`flex flex-col lg:flex-row justify-center items-center text-3xl lg:text-base gap-6 lg:gap-2 absolute h-screen w-screen top-0 
                 transition-all duration-300
-                ${open ? "" : "hidden"}
+                ${open ? "" : "left-full"}
                 lg:left-0 lg:relative lg:h-auto lg:w-auto bg-white dark:bg-[#0b1727] lg:bg-transparent`}
             >
               <li><a className="px-4 opacity-100" href="#">Home</a></li>
