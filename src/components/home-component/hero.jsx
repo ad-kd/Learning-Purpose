@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import VariableProximity from '../rebits/VariableProximity.jsx';
 import LightRays from '../rebits/LightRays.jsx';
 import TextType from '../rebits/TextType.jsx';
+import ClickSpark from '../rebits/ClickSpark.jsx';
 
 
 
@@ -20,7 +21,14 @@ to accelerate our international expansion and unlock significant mutual returns.
     return (
         <div >
 
-            <div style={{ width: '100%', height: '600px', position: 'relative', overflow: 'hidden', zIndex: -1 }}>
+<ClickSpark
+  sparkColor='#fff'
+  sparkSize={10}
+  sparkRadius={15}
+  sparkCount={8}
+  duration={400}
+>
+     <div style={{ width: '100%', height: '600px', position: 'relative', overflow: 'hidden', zIndex: -1 }}>
 
                 <LightRays
                     raysOrigin="top-left"
@@ -45,15 +53,16 @@ to accelerate our international expansion and unlock significant mutual returns.
                         cursorCharacter="●"
                     />
                     <br />
-                    <div className='pt-5'>
-                        <div
+                    <div className='grid grid-flow-col grid-rows-3 gap-4'>
+                        <div className='pt-5 break-all row-span-3'>
+                        <div className='text-xl'
                             ref={containerRef}
                             style={{ position: 'relative' }}
                         >
 
                             <VariableProximity
                                 label={description}
-                                className={'variable-proximity-demo' + 'text-wrap break-all pt-4 pr-3 md:pl-20 md:pr-20 text-white'}
+                                className={'variable-proximity-demo' + 'text-wrap pt-4 md:pl-20 md:pr-20 text-white'}
                                 fromFontVariationSettings="'wght' 400, 'opsz' 9"
                                 toFontVariationSettings="'wght' 1000, 'opsz' 40"
                                 containerRef={containerRef}
@@ -63,10 +72,18 @@ to accelerate our international expansion and unlock significant mutual returns.
 
                         </div>
                     </div>
+                    <div className='col-span-45'>
+                        
+                    </div>
+                    </div>
+                    
                 </div>
 
 
             </div>
+</ClickSpark>
+
+           
         </div>
     )
 }
