@@ -5,7 +5,7 @@ const hero = () => {
   return (
     <div>
 
-<section className="bg-[url()] bg-fixed px-2 sm:px-10 from-[#F5F7FF] via-[#fffbee] to-[#E6EFFF] pt-6 h-full">
+<section className="bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1L7__dfpWFVFGXXwPyo3fuT38vvXn86mR0g&s)] bg-cover bg-no-repeat bg-fixed px-2 sm:px-10 from-[#F5F7FF] via-[#fffbee] to-[#E6EFFF] pt-6 h-full">
     <main className="flex-grow flex flex-col items-center max-w-7xl mx-auto w-full">
         <button
             className="mt-16 mb-6 flex items-center space-x-2 border border-indigo-600 text-indigo-600 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
