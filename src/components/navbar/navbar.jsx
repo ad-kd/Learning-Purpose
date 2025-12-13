@@ -32,8 +32,6 @@ const Navbar = () => {
               <li><a className="px-4 opacity-100" href="#">Home</a></li>
               <li><a className="px-4 opacity-50 hover:opacity-100" href="#">Services</a></li>
               <li><a className="px-4 opacity-50 hover:opacity-100" href="#">Why us?</a></li>
-              <li><a className="px-4 opacity-50 hover:opacity-100" href="#">How We Works</a></li>
-              <li><a className="px-4 opacity-50 hover:opacity-100" href="#">Achivements</a></li>
               <li><a className="px-4 opacity-50 hover:opacity-100" href="#">Contact Us</a></li>
               <li>
                 <button className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white py-1.5 px-4 rounded">

@@ -3,18 +3,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
   faFacebook,
-  faVimeo,
+  faLinkedin,
   faDropbox,
-  faGithub,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import PropTypes from "prop-types";
 
 const sociaIcons = [
   { icon: faTwitter, href: "#!" },
   { icon: faFacebook, href: "#!" },
-  { icon: faVimeo, href: "#!" },
+  { icon: faLinkedin, href: "#!" },
   { icon: faDropbox, href: "#!" },
-  { icon: faGithub, href: "#!" },
+  { icon: faInstagram, href: "#!" },
 ];
 
 const SocialItem = ({ social }) => (
